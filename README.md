@@ -1,4 +1,4 @@
-SongSphere is a Personalised Music Recommendation System that implements both Content-Based Filtering and Collaborative Filtering to recommend songs.
+# SongSphere is a Personalised Music Recommendation System that implements both Content-Based Filtering and Collaborative Filtering to recommend songs.
 
 Recommender systems are widely used in industries such as music, movies, and e-commerce to personalize user experience. This project explores two main approaches:
 
@@ -9,9 +9,9 @@ In a few words, the idea behind is to extract meaningful keywords present in a s
 2] Collaborative Filtering → Recommends songs based on user-item interactions and preferences of similar users.
 Collaborative-based filters predict what a user like based on what other users, that are similar to that particular user, have liked.
 
-Datasets we have used -
+# Datasets we have used -
 
-Content-Based Dataset:
+1] Content-Based Dataset:
 
 - Name: songdata.csv
 
@@ -19,7 +19,7 @@ Content-Based Dataset:
 
 - Source: Kaggle dataset (LyricsFreak scraped)
 
-Collaborative Dataset:
+2] Collaborative Dataset:
 
 - Name: songs.csv
 
@@ -27,7 +27,7 @@ Collaborative Dataset:
 
 - Source: Million Song Dataset
 
-How It Works
+# How It Works
 
 1️⃣ Content-Based Recommender :
 
@@ -43,9 +43,9 @@ How It Works
 
 - Predicts if a user will like a song based on preferences of similar users.
 
-- Two approaches: a] User-User Filtering → Find similar users and recommend what they like.
+- Two approaches: a] User-User Filtering → Find similar users and recommend what they like.<br>
                   b] Item-Item Filtering → Find similar songs based on ratings.
-- Refer to - 1) CF_knn_music_recommender and
+- Refer to - 1) CF_knn_music_recommender <br>
              2) CF_matrix_fact_music_recommender
 
 
